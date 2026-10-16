@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Confidential parking data
+data/incoming/
+*.csv
+!data/sample/*.csv
+
+# Python
+.venv/
+__pycache__/
+.env
+
+# Logs and temporary files
+*.log
