@@ -45,17 +45,8 @@ The threshold applies to eligible revenue within each calendar year.
 
 ## Planned Architecture
 
-```text
-Monthly Excel Exports
-        |
-        v
-Python Import & Validation
-        |
-        v
-SQL Server Database
-        |
-        v
-SQL Business Logic & Reporting Views
-        |
-        v
-Power BI Dashboards
+The following diagram illustrates the planned end-to-end
+data pipeline, from monthly Excel exports to interactive
+Power BI dashboards.
+
+![Parking Analytics Data Pipeline](docs/Workflow.png)
