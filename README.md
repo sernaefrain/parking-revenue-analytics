@@ -4,8 +4,6 @@
 
 **Tech Stack:** SQL Server | Python | Power BI | Excel | Git & GitHub
 
-**Status:** In Development — Phase 1: Data Modeling
-
 ## Project Overview
 
 This project develops an end-to-end analytics solution for a
@@ -39,7 +37,7 @@ Article labels are excluded because they are not reliable identifiers.
 
 - Eligible Revenue = Total Revenue - Hotel Revenue
 - Annual Threshold = $300,000
-- Management Fee = 5% × MAX(0, Annual Eligible Revenue - $300,000)
+- Management Fee = 5% x MAX(0, Annual Eligible Revenue - $300,000)
 
 The threshold applies to eligible revenue within each calendar year.
 
@@ -50,3 +48,10 @@ data pipeline, from monthly Excel exports to interactive
 Power BI dashboards.
 
 ![Parking Analytics Data Pipeline](docs/Workflow.png)
+
+## Local SQL Server Setup
+
+- Database engine: SQL Server 2025 Standard Developer
+- Instance: MSSQLSERVER (default instance)
+- SSMS server name: localhost
+- Authentication: Windows Authentication
