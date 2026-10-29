@@ -61,6 +61,14 @@ The threshold applies to eligible revenue within each calendar year.
 The following diagram illustrates the planned end-to-end
 data pipeline, from monthly Excel exports to interactive
 Power BI dashboards.
+- GitHub Repository
+- Python environment
+- SQL staging tables
+- Initial Python ingestion
+- Git ignore configuration
+- SQL data reconciliation
+- Clean analysis view
+- Power BI dashboard
 
 ![Parking Analytics Data Pipeline](docs/Workflow.png)
 
