@@ -31,6 +31,9 @@ The sustem tracks parking revenue, transaction volume, cusomter usage patterns, 
 
     1. Add files: drop new files into the raw data folder.
     2. Run Python: the loader reads each file, validates its columns, loads only new or changed files, and logs what happened. 
+        Open the VS Code PowerShell terminal in your project directory.
+        Run:
+        python .\python\load_parking_reports.py
     3. Review load results:
     4. Refresh PowerBI
 
