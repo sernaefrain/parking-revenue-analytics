@@ -201,3 +201,10 @@ INNER JOIN sys.schemas AS s
 WHERE s.name IN ('stg', 'analytics', 'rpt')
 ORDER BY s.name, t.name;
 GO
+
+SELECT COUNT(*) AS total_transactions
+FROM stg.parking_transactions;
+
+SELECT COUNT(*) AS total_loaded_files
+FROM stg.file_load_log;
+
