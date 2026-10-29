@@ -2,16 +2,13 @@
 
 **End-to-End Business Intelligence & Data Automation Project**
 
-**Tech Stack:** SQL Server | Python | Power BI | Excel | Git & GitHub
+SQL Server | Python | Power BI | Git & GitHub
 
 ## Project Overview
 
-This project develops an end-to-end analytics solution for a
-commercial parking operation.
+An end-to-end validated, repeatable analytics pipeline project that automatically processes monthly parking transaction files and updates a management dashboard.
 
-The goal is to transform monthly Excel transaction exports into
-reliable financial reporting, automated data processing, and
-interactive Power BI dashboards.
+The sustem tracks parking revenue, transaction volume, cusomter usage patterns, and management fee eligibility.
 
 ### Business Questions
 
@@ -22,7 +19,22 @@ interactive Power BI dashboards.
 - How does revenue change by day, month, and year?
 - Which vehicle entry hours and weekdays generate the most revenue?
 
-## Business Logic
+## Technology Stack
+| Tool | Purpose |
+|----|----|
+| SQL Server | Data storage, business logic, and reporting views | 
+| Python (pandas) | File ingestion, cleaning, validation, and automation |
+| Power BI | Interactive dashboards and KPI monitoring |
+| Git & GitHub | Version control and project documentation |
+
+## Data Pipeline
+
+    1. Add files: drop new files into the raw data folder.
+    2. Run Python: the loader reads each file, validates its columns, loads only new or changed files, and logs what happened. 
+    3. Review load results:
+    4. Refresh PowerBI
+
+
 
 ### Hotel Parking Classification
 
