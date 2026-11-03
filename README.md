@@ -34,7 +34,9 @@ The sustem tracks parking revenue, transaction volume, cusomter usage patterns, 
         Open the VS Code PowerShell terminal in your project directory.
         Run:
         python .\python\load_parking_reports.py
-    3. Review load results:
+    3. Review load results/Make changes to SQL scripts:
+            USE parking_analytics;
+            stg.parking_transactions: raw clean transaction data 
     4. Refresh PowerBI
 
 
@@ -78,3 +80,5 @@ Power BI dashboards.
 - Instance: MSSQLSERVER (default instance)
 - SSMS server name: localhost
 - Authentication: Windows Authentication
+
+
